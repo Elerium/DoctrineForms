@@ -5,8 +5,8 @@
 		"php": ">=5.4.0",
 		"nette/nette": "2.0.*",
 		"doctrine/orm": "2.*",
-		"elerium/entity-mapper": "*",
-		"elerium/exceptions": "*"
+		"elerium/entity-mapper": "dev-master",
+		"elerium/exceptions": "dev-master"
 	},
 	"require-dev": {
 		"nette/tester": "dev-master"
