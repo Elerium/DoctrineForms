@@ -1,0 +1,41 @@
+<form action="" method="post">
+
+<table>
+<tr class="required">
+	<th><label class="required" for="frm-id"></label></th>
+
+	<td><input type="text" class="text" name="id" id="frm-id" required="required" data-nette-rules="{op:':integer',msg:'Please enter a numeric value.'},{op:':filled',msg:'Please complete mandatory field.'}" value="" /></td>
+</tr>
+
+<tr class="required">
+	<th><label class="required" for="frm-name"></label></th>
+
+	<td><input type="text" class="text" name="name" id="frm-name" required="required" data-nette-rules="{op:':filled',msg:'Please complete mandatory field.'}" value="" /></td>
+</tr>
+
+<tr class="required">
+	<th><label class="required" for="frm-parent-id"></label></th>
+
+	<td><input type="text" class="text" name="parent[id]" id="frm-parent-id" required="required" data-nette-rules="{op:':integer',msg:'Please enter a numeric value.'},{op:':filled',msg:'Please complete mandatory field.'}" value="" /></td>
+</tr>
+
+<tr class="required">
+	<th><label class="required" for="frm-parent-name"></label></th>
+
+	<td><input type="text" class="text" name="parent[name]" id="frm-parent-name" required="required" data-nette-rules="{op:':filled',msg:'Please complete mandatory field.'}" value="" /></td>
+</tr>
+
+<tr class="required">
+	<th><label class="required" for="frm-parent-parent-id"></label></th>
+
+	<td><input type="text" class="text" name="parent[parent][id]" id="frm-parent-parent-id" required="required" data-nette-rules="{op:':integer',msg:'Please enter a numeric value.'},{op:':filled',msg:'Please complete mandatory field.'}" value="" /></td>
+</tr>
+
+<tr class="required">
+	<th><label class="required" for="frm-parent-parent-name"></label></th>
+
+	<td><input type="text" class="text" name="parent[parent][name]" id="frm-parent-parent-name" required="required" data-nette-rules="{op:':filled',msg:'Please complete mandatory field.'}" value="" /></td>
+</tr>
+</table>
+
+</form>

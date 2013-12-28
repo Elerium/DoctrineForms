@@ -1,0 +1,18 @@
+<form action="" method="post">
+
+<table>
+<tr>
+	<th><label for="frm-parent"></label></th>
+
+	<td><select name="parent" id="frm-parent"><option value="John">John</option><option value="Jane">Jane</option><option value="Bill">Bill</option></select></td>
+</tr>
+
+<tr>
+	<th><label for="frm-childrens"></label></th>
+
+	<td><select name="childrens[]" id="frm-childrens" multiple="multiple"><option value="John">John</option><option value="Jane">Jane</option><option value="Bill">Bill</option></select></td>
+</tr>
+</table>
+
+<div><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]--></div>
+</form>

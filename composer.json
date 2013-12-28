@@ -1,0 +1,19 @@
+{
+	"name": "elerium/doctrine-forms",
+	"version": "1.0.0",
+	"require": {
+		"php": ">=5.4.0",
+		"nette/nette": "2.0.*",
+		"doctrine/orm": "2.*",
+		"elerium/entity-mapper": "*",
+        "elerium/exceptions": "*"
+	},
+	"require-dev": {
+		"nette/tester": "dev-master"
+	},
+	"autoload": {
+		"psr-0": {
+			"Elerium": ""
+		}
+	}
+}

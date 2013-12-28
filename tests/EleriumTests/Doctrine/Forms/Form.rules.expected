@@ -1,0 +1,35 @@
+<form action="" method="post">
+
+<table>
+<tr class="required">
+	<th><label class="required" for="frm-id"></label></th>
+
+	<td><input type="text" class="text" name="id" id="frm-id" required="required" data-nette-rules='{op:&#39;:integer&#39;,msg:&#39;Wrong type!&#39;},{op:&#39;:filled&#39;,msg:&#39;Please complete mandatory field.&#39;},{op:"Elerium\\Doctrine\\Forms\\Rules::validateUnique",msg:&#39;ID already exist&#39;}' value="" /></td>
+</tr>
+
+<tr class="required">
+	<th><label class="required" for="frm-name"></label></th>
+
+	<td><input type="text" maxlength="64" class="text" name="name" id="frm-name" required="required" data-nette-rules="{op:':maxLength',msg:'Max length must be 64!',arg:64},{op:':filled',msg:'Please complete mandatory field.'}" value="" /></td>
+</tr>
+
+<tr>
+	<th><label for="frm-age"></label></th>
+
+	<td><input type="text" class="text" name="age" id="frm-age" data-nette-rules="{op:':integer',msg:'Please enter a numeric value.'}" value="" /></td>
+</tr>
+
+<tr>
+	<th><label for="frm-height"></label></th>
+
+	<td><input type="text" class="text" name="height" id="frm-height" data-nette-rules="{op:':float',msg:'Please enter a numeric value.'}" value="" /></td>
+</tr>
+
+<tr>
+	<th><label for="frm-email"></label></th>
+
+	<td><input type="text" class="text" name="email" id="frm-email" data-nette-rules="{op:':email',msg:'Please enter a valid email address.'}" value="" /></td>
+</tr>
+</table>
+
+</form>
